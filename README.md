@@ -1,4 +1,4 @@
-##Lüftersteuerung
+Lüftersteuerung
 Lüfter und LED abhängig von CPU Temperatur steuern
 Gesteuert können z.B. folgende LED
 
