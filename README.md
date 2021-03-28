@@ -18,7 +18,6 @@ crontab -e
 
 @reboot python3 /home/pi/lueftersteuerung/temperatur.py
 
-
-Nach dem Crontab eintrag rebooten
+Nach dem Crontab eintrag rebooten:
 
 sudo reboot
