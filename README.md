@@ -8,10 +8,6 @@ Gesteuert können z.B. folgende LED
 
 1x rot leuchtet ab 60 Grad CPU Temperatur, Lüfter schalet sich ein bis die CPU-Temperatur unter 60 Grad beträgt
 
- normal = 50
- warm = 55
- heiss = 60
-
 Programm starten:
 
 /home/pi/lueftersteuerung/lueftersteuerung.py
