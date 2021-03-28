@@ -3,7 +3,9 @@ Lüfter und LED abhängig von CPU Temperatur steuern
 Gesteuert können z.B. folgende LED
 
 1x grün leuchtet bis 50 Grad CPU Temperatur
+
 1x gelb leuchtet ab 50 Grad CPU Temperatur
+
 1x rot leuchtet ab 60 Grad CPU Temperatur, Lüfter schalet sich ein bis die CPU-Temperatur unter 60 Grad beträgt
 
  normal = 50
