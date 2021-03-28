@@ -17,18 +17,27 @@ GPIO.output(4, GPIO.LOW)
 GPIO.output(17, GPIO.LOW)
 
 #Funktionstest
-GPIO.output(2, GPIO.HIGH)
-time.sleep(0.5)
-GPIO.output(3, GPIO.HIGH)
-time.sleep(0.5)
-GPIO.output(4, GPIO.HIGH)
-time.sleep(0.5)
-GPIO.output(4, GPIO.LOW)
-time.sleep(0.5)
-GPIO.output(3, GPIO.LOW)
-time.sleep(0.5)
-GPIO.output(2, GPIO.LOW)
-time.sleep(1)
+for in range(0, 5):
+    GPIO.output(2, GPIO.HIGH)
+    time.sleep(0.25)
+    GPIO.output(3, GPIO.HIGH)
+    time.sleep(0.25)
+    GPIO.output(4, GPIO.HIGH)
+    time.sleep(0.25)
+    GPIO.output(4, GPIO.LOW)
+    time.sleep(0.25)
+    GPIO.output(3, GPIO.LOW)
+    time.sleep(0.25)
+    GPIO.output(2, GPIO.LOW)
+    time.sleep(0,25)
+    GPIO.output(2, GPIO.HIGH)
+    time.sleep(0.25)
+    GPIO.output(3, GPIO.HIGH)
+    time.sleep(0.25)
+    GPIO.output(4, GPIO.HIGH)
+    
+time.sleep(5)
+
 
 #Lüftersteuerung
 while 1:
