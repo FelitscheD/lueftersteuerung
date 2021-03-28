@@ -8,8 +8,15 @@ Gesteuert können z.B. folgende LED
 
 Programm starten:
 
-/home/pi/director-display/lueftersteuerung.py
+/home/pi/lueftersteuerung/lueftersteuerung.py
 
 LED und Lüfter schalten sich je nach CPU Temperatur an und wieder aus, damit das Programm automatisch startet empfiehlt sich folgender Cronjob:
 
+crontab -e
+
 @reboot python3 /home/pi/lueftersteuerung/temperatur.py
+
+
+Nach dem Crontab eintrag rebooten
+
+sudo reboot
