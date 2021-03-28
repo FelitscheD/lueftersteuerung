@@ -16,7 +16,7 @@ LED und Lüfter schalten sich je nach CPU Temperatur an und wieder aus, damit da
 
 crontab -e
 
-@reboot python3 /home/pi/lueftersteuerung/temperatur.py
+@reboot python3 /home/pi/lueftersteuerung/lueftersteuerung.py
 
 Nach dem Crontab eintrag rebooten:
 
