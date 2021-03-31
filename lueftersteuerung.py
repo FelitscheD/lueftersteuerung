@@ -35,7 +35,7 @@ for x in range(20):
     GPIO.output(3, GPIO.HIGH)
     time.sleep(0.1)
     GPIO.output(4, GPIO.HIGH)
-    
+GPIO.output(17, GPIO.HIGH)
 time.sleep(5)
 
 
